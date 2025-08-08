@@ -1,0 +1,10 @@
+{
+  "domain": "efergy",
+  "name": "Efergy (Custom)",
+  "version": "1.0.0",
+  "config_flow": true,
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "loggers": ["iso4217", "pyefergy"],
+  "requirements": ["pyefergy==22.5.0", "lxml==5.3.0"]
+}
